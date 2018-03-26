@@ -24,5 +24,8 @@ body {
           color: #FFF; }
           body .sites-nav_menu li a::after {
             content: "";
+            display: block;
             height: 2px;
-            background-color: #F0AD4F; }
+            background-color: #F0AD4F;
+            -webkit-transform: translateY(40px);
+                    transform: translateY(40px); }
