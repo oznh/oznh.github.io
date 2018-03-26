@@ -5,7 +5,7 @@ html {
 body {
   background-color: #E6E6E6;
   color: #333;
-  font-family: "roboto", sans-serif; }
+  font-family: "open sans", sans-serif; }
   body .sites-nav {
     background-color: #333; }
     body .sites-nav_menu {
@@ -20,3 +20,8 @@ body {
           text-decoration: none;
           text-align: right;
           color: #FFF; }
+          body .sites-nav_menu li a::after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background-color: #F0AD4F; }
