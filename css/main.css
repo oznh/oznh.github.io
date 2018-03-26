@@ -29,4 +29,11 @@ body {
             height: 2px;
             background-color: #F0AD4F;
             -webkit-transform: translateY(15px) scale(0);
-                    transform: translateY(15px) scale(0); }
+                    transform: translateY(15px) scale(0);
+            -webkit-transition: all 0.2s;
+            transition: all 0.2s; }
+          body .sites-nav_menu li a:hover {
+            text-decoration: none; }
+            body .sites-nav_menu li a:hover::after {
+              -webkit-transform: translateY(15px) scale(1);
+                      transform: translateY(15px) scale(1); }
