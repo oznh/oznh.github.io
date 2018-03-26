@@ -24,6 +24,5 @@ body {
           color: #FFF; }
           body .sites-nav_menu li a::after {
             content: "";
-            width: 100%;
             height: 2px;
             background-color: #F0AD4F; }
