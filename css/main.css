@@ -27,5 +27,5 @@ body {
             display: block;
             height: 2px;
             background-color: #F0AD4F;
-            -webkit-transform: translateY(40px);
-                    transform: translateY(40px); }
+            -webkit-transform: translateY(20px);
+                    transform: translateY(20px); }
