@@ -9,7 +9,7 @@ body {
   margin: 0; }
   body .sites-nav {
     background-color: #333;
-    height: 45px; }
+    align: right; }
     body .sites-nav_menu {
       list-style: none;
       padding: 0;
