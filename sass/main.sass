@@ -4,12 +4,13 @@
 
 html
 	font-size: 16px
-
+	box-sizing: border-box
 body
 	background-color: $body-bg
 	color: $dark
 	font-family: 'open sans', sans-serif
 	margin: 0
+	padding: 0
 	.sites-nav
 		background-color: $dark
 		&_menu
@@ -37,7 +38,6 @@ body
 	.col-md-auto
 		padding: 0
 	.top-nav
-		background-color: $white
 		padding: 15px
 		&_menu
 			list-style: none
@@ -61,5 +61,55 @@ body
 						text-decoration: none
 						&::after
 							transform: translateY(5px) scale(1)
-	.about // секция about - смю index.html
-		
+	.slider
+		display: flex
+		justify-content: flex-start
+		align-items: flex-end
+		.item
+			box-shadow: 0px 0px 10px rgba(0,0,0,.4)
+			padding-bottom: 10px
+			padding-left: 25px
+			height: 650px
+			display: flex
+			justify-content: flex-start
+			align-items: flex-end
+			background-color: #aeaeae
+			flex-basis: 33.33%
+			transition: all 0.2s
+			&:hover
+				flex-basis: 100%
+			span
+				text-shadow: 0px 0px 10px #000
+				a
+					text-decoration: none
+					font-size: 24px					
+					color: $active-color
+				p
+					color: $white
+					font-size: 16px
+		.item-1
+			background: url(../img/1x/top_slider_1.png) no-repeat center center
+			background-size: cover
+		.item-2
+			background: url(../img/1x/top_slider_2.png) no-repeat center center
+			background-size: cover
+		.item-3
+			background: url(../img/1x/top_slider_3.png) no-repeat center center
+			background-size: cover
+	@media (max-width: 1000px)
+		.slider
+			height: 60vh
+			flex-flow: column
+			.item
+				width: 100%
+				padding-bottom: 5px
+				padding-left: 15px				
+				span
+					text-shadow: 0px 0px 10px #000
+					a
+						font-size: 16px
+					p
+						font-size: 12px
+// @media (max-width: 995px)
+// 	.top-nav_menu
+// 		display: box
