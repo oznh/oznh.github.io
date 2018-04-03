@@ -1,16 +1,52 @@
-
-
 @import "colors"
+@import "fonts"
 
-html
+html	
 	font-size: 16px
 	box-sizing: border-box
 body
-	background-color: $body-bg
+	background-color: $white
 	color: $dark
 	font-family: 'open sans', sans-serif
 	margin: 0
 	padding: 0
+	img
+		border-radius: 10px
+	a
+		color: $second-color
+		text-decoration: underline
+		&:hover
+			color: $dark
+			transition: all 0.2s
+	h1
+		font-size: 44px
+		font-weight: 400
+		margin-bottom: 30px
+	p
+		line-height: 21px
+	h2
+		font-weight: bold
+		font-size: 18px
+	ul
+		padding: 0
+		margin-left: 0
+		li
+			margin-top: 10px
+			margin-bottom: 10px
+	.quote
+		font-family : Helvetica Neue Cyr Thin
+		font-size : 24px
+		line-height : 29px
+		margin-top: 5px
+		margin-bottom: 15px
+	.date
+		font-style : italic
+	.img-sign
+		font-style : italic
+		font-size : 14px
+	.copyright
+		font-size : 12px
+		line-height : 14px
 	.sites-nav
 		background-color: $dark
 		&_menu
@@ -110,6 +146,18 @@ body
 						font-size: 16px
 					p
 						font-size: 12px
-// @media (max-width: 995px)
-// 	.top-nav_menu
-// 		display: box
+	.content
+		margin-left: 40px
+		margin-right: 40px
+	footer
+		font-size: 12px
+		line-height: 18px
+		background-color: $dark
+		color: $lgrey
+		padding-top: 20px
+		padding-bottom: 20px
+		a
+			color: $active-color
+			&:hover
+				color: $lgrey
+				transition: all 0.2s

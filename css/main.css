@@ -1,14 +1,55 @@
 /* Background color */
+@font-face {
+  font-family: Helvetica Neue Cyr Thin;
+  src: local("HelveticaNeueCyr"), url(/fonts/HelveticaNeueCyr-Thin.ttf); }
 html {
   font-size: 16px;
   box-sizing: border-box; }
 
 body {
-  background-color: #E6E6E6;
+  background-color: #FFF;
   color: #333;
   font-family: "open sans", sans-serif;
   margin: 0;
   padding: 0; }
+  body img {
+    border-radius: 10px; }
+  body a {
+    color: #D3771C;
+    text-decoration: underline; }
+    body a:hover {
+      color: #333;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s; }
+  body h1 {
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  body p {
+    line-height: 21px; }
+  body h2 {
+    font-weight: bold;
+    font-size: 18px; }
+  body ul {
+    padding: 0;
+    margin-left: 0; }
+    body ul li {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+  body .quote {
+    font-family: Helvetica Neue Cyr Thin;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 5px;
+    margin-bottom: 15px; }
+  body .date {
+    font-style: italic; }
+  body .img-sign {
+    font-style: italic;
+    font-size: 14px; }
+  body .copyright {
+    font-size: 12px;
+    line-height: 14px; }
   body .sites-nav {
     background-color: #333; }
     body .sites-nav_menu {
@@ -136,3 +177,19 @@ body {
             font-size: 16px; }
           body .slider .item span p {
             font-size: 12px; } }
+  body .content {
+    margin-left: 40px;
+    margin-right: 40px; }
+  body footer {
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #333;
+    color: #E6E6E6;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    body footer a {
+      color: #F0AD4F; }
+      body footer a:hover {
+        color: #E6E6E6;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s; }
