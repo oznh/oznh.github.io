@@ -1,5 +1,6 @@
 @import "colors"
 @import "fonts"
+@import "fontello"
 
 html	
 	font-size: 16px
@@ -37,8 +38,8 @@ body
 		font-family : Helvetica Neue Cyr Thin
 		font-size : 24px
 		line-height : 29px
-		margin-top: 5px
-		margin-bottom: 15px
+		padding-top: 5px
+		padding-bottom: 35px
 	.date
 		font-style : italic
 	.img-sign
@@ -71,8 +72,15 @@ body
 						text-decoration: none
 						&::after
 							transform: translateY(5px) scale(1)
+		&_btn
+			background-color: transparent
+			border: 0
+			color: $white
+			display: block
 	.col-md-auto
 		padding: 0
+		margin-left: 2%
+		margin-right: 2%		
 	.top-nav
 		padding: 15px
 		&_menu
@@ -133,9 +141,12 @@ body
 			background: url(../img/1x/top_slider_3.png) no-repeat center center
 			background-size: cover
 	.content
-		margin-left: 40px
-		margin-right: 40px
+		margin-left: 2%
+		margin-right: 2%
+		margin-bottom: 1%
 	footer
+		padding-left: 2%
+		padding-right: 2%
 		font-size: 12px
 		line-height: 18px
 		background-color: $dark
@@ -147,4 +158,10 @@ body
 			&:hover
 				color: $lgrey
 				transition: all 0.2s
+	.col-6
+		padding: 0
+		margin: 0
+	.col-md
+		padding: 0
+		margin: 0
 @import "media"
