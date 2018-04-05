@@ -73,14 +73,20 @@ body
 						&::after
 							transform: translateY(5px) scale(1)
 		&_btn
-			background-color: transparent
-			border: 0
-			color: $white
 			display: none
+			background-color: transparent
+			border: none
+			color: $white
+			font-size: 14px
+			position: absolute
+			width: 20px
+			&:hover
+				cursor: pointer
+				color: $active-color
 	.col-md-auto
 		padding: 0
 		margin-left: 2%
-		margin-right: 2%		
+		margin-right: 2%
 	.top-nav
 		padding: 15px
 		&_menu
@@ -105,6 +111,8 @@ body
 						text-decoration: none
 						&::after
 							transform: translateY(5px) scale(1)
+		&_btn
+			display: none
 	.slider
 		display: flex
 		justify-content: flex-start
@@ -164,4 +172,4 @@ body
 	.col-md
 		padding: 0
 		margin: 0
-@import "media"
+@import "_media.sass"
