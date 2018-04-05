@@ -131,7 +131,7 @@ body {
       background-color: transparent;
       border: 0;
       color: #FFF;
-      display: block; }
+      display: none; }
   body .col-md-auto {
     padding: 0;
     margin-left: 2%;
