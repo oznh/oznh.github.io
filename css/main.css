@@ -257,7 +257,7 @@ body {
 @media (max-width: 1000px) {
   body .sites-nav_btn {
     display: block; }
-  body .sites-nav ul {
+  body .sites-nav #sm {
     display: none; }
   body .slider {
     height: 60vh;
