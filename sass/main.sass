@@ -49,6 +49,9 @@ body
 		font-size : 12px
 		line-height : 14px
 	.sites-nav
+		padding-left: 2%
+		padding-right: 2%
+		height: 50px
 		background-color: $dark
 		&_menu
 			list-style: none
@@ -56,6 +59,8 @@ body
 			display: flex
 			li
 				margin-left: 30px
+				margin-top: 0
+				margin-bottom: 0
 				a
 					text-decoration: none
 					font-size: 12px
@@ -77,18 +82,17 @@ body
 			background-color: transparent
 			border: none
 			color: $white
-			font-size: 14px
-			position: absolute
-			width: 20px
+			transition: all 0.2s
 			&:hover
 				cursor: pointer
 				color: $active-color
 	.col-md-auto
 		padding: 0
+		margin: 0
+	.top-nav
+		padding: 0
 		margin-left: 2%
 		margin-right: 2%
-	.top-nav
-		padding: 15px
 		&_menu
 			list-style: none
 			padding: 0
@@ -172,4 +176,4 @@ body
 	.col-md
 		padding: 0
 		margin: 0
-@import "_media.sass"
+@import media
